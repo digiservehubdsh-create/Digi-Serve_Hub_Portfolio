@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Digi-Serve Hub | Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<nav>
+    <div class="logo">Digi-Serve Hub</div>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+</nav>
+</header>
+
+<section class="section">
+    <h1>Let’s Build Something Meaningful</h1>
+    <p>Tell us about your project. We’ll respond quickly with clarity and direction.</p>
+
+    <div class="contact-card">
+        <h2>Start Your Project</h2>
+
+        <form onsubmit="sendMessage(); return false;">
+            <input type="text" id="name" placeholder="Full Name" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="tel" id="phone" placeholder="Phone Number" required>
+            <textarea id="message" placeholder="Describe your project..." required></textarea>
+            <button type="submit">Send via WhatsApp</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <p>support@digiservehub.com</p>
+    <p>© 2026 Digi-Serve Hub. All Rights Reserved.</p>
+</footer>
+
+<script>
+function sendMessage() {
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
+    var phone = document.getElementById("phone").value;
+    var message = document.getElementById("message").value;
+
+    var text = "Hello Digi-Serve Hub,%0A%0A"
+        + "Name: " + name + "%0A"
+        + "Email: " + email + "%0A"
+        + "Phone: " + phone + "%0A"
+        + "Project: " + message;
+
+    var url = "https://wa.me/917896925877?text=" + text;
+    window.open(url, "_blank");
+}
+</script>
+
+</body>
+</html>
