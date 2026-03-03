@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://digiservehubdsh-create.github.io/Digi-Serve_Hub_Portfolio/</loc>
+    <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://digiservehubdsh-create.github.io/Digi-Serve_Hub_Portfolio/about.html</loc>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://digiservehubdsh-create.github.io/Digi-Serve_Hub_Portfolio/services.html</loc>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://digiservehubdsh-create.github.io/Digi-Serve_Hub_Portfolio/portfolio.html</loc>
+    <priority>0.70</priority>
+  </url>
+
+  <url>
+    <loc>https://digiservehubdsh-create.github.io/Digi-Serve_Hub_Portfolio/contact.html</loc>
+    <priority>0.70</priority>
+  </url>
+
+</urlset>
